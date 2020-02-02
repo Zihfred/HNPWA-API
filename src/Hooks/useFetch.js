@@ -1,4 +1,4 @@
-import {useDispatch} from "react-redux";
+import { useDispatch } from "react-redux";
 import { useEffect} from "react";
 
 const useFetch = (actionCreator) => {
