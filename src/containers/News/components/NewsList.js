@@ -16,7 +16,7 @@ const NewsList = ({ news }) => {
               Name
             </span>
           </StyledTd>
-          <StyledTd onClick={() => onSort("domain", e)}>
+          <StyledTd onClick={() => onSort("domain")}>
             <span  onClick={() => onSort("time")}>
               Domain
             </span>
